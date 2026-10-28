@@ -1,0 +1,7 @@
+cd ~
+mkdir test-install && cd test-install
+npm init -y
+npm install @manojahire/tiny-text-utils
+node -e "console.log(require('@manojahire/tiny-text-utils').slugify('It works!'))"
+
+https://www.npmjs.com/package/@manojahire/tiny-text-utils

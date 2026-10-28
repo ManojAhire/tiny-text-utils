@@ -11,7 +11,7 @@ npm install @manojahire/tiny-text-utils
 ## Usage
 
 ```js
-const { slugify, capitalize } = require("@YOUR_NPM_USERNAME/tiny-text-utils");
+const { slugify, capitalize } = require("@manojahire/tiny-text-utils");
 
 slugify("Hello World from Pune!"); // "hello-world-from-pune"
 capitalize("hello"); // "Hello"
